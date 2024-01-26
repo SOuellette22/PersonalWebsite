@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game Name="Test">
+    <teams>
+        <team Name="Barcalona">
+            <players>
+                <player Name="R. Lewandowski">
+                    <season1 Goals="32" Assists="12" />
+
+                </player>
+                <player Name="Raphinha">
+                    <season1 Goals="22" Assists="22" />
+
+                </player>
+                <player Name="A. Fati">
+                    <season1 Goals="12" Assists="32" />
+
+                </player>
+            </players>
+        </team>
+    </teams>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game Name='FIFA 23'>
+    <teams>
+        <team Name='Barcalona'>
+            <players>
+                <player Name='R. Lewandowski'>
+                    <gseason1>32</gseason1>
+                    <gseason2>32</gseason2>
+                    <gseason3>32</gseason3>
+                    <gseason4>32</gseason4>
+                    <gseason5>32</gseason5>
+                    <gseason6>32</gseason6>
+                    <gseason7>32</gseason7>
+                    <gseason8>32</gseason8>
+                    <gseason9>32</gseason9>
+                    <gseason10>32</gseason10>
+                </player>
+            </players>
+        </teams>
+    </teams>
+</game>

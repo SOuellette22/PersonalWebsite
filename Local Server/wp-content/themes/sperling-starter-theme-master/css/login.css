@@ -1,0 +1,7 @@
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  background-image: url(../img/SI_Logo_web.png);
+  width: 320px;
+  height: 97px;
+  background-size: cover;
+}

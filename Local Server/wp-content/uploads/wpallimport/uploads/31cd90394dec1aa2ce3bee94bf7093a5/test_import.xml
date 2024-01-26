@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game Name='FIFA 23'>
+    <teams>
+        <team Name='Barcalona'>
+            <players>
+                <player Name='R. Lewandowski'>
+                    <season1 g='1' a='2'/>
+                </player>
+                <player Name='Raphinha'>
+                    <season1 g='14' a='22'/>
+                </player>
+            </players>
+        </teams>
+    </teams>
+</game>

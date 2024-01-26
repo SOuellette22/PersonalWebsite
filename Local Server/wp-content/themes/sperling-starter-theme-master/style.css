@@ -1,0 +1,644 @@
+/*
+    Theme Name: Sperling Starter
+    Theme URI: https://www.sperlinginteractive.com
+    Description: Sperling Interactive WordPress Starter Theme
+    Version: 1.0
+    Author: Sperling Interactive
+  Theme URI: https://www.sperlinginteractive.com
+*/
+
+/*------------------------------------*\
+    Example of Using Root Variable 
+    :root {
+        --blue: #0000FF          
+    }
+    .test-element {
+        color: var(--blue)
+    }
+\*------------------------------------*/
+
+:root {
+
+}
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* html element 62.5% font-size for REM use */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #444;
+    font: 300 11px/1.4 Helvetica, Arial, sans-serif;
+}
+
+/* clear */
+.clear:before,
+.clear:after {
+    content: ' ';
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    height: auto;
+}
+
+/* Lightspeed Lazy load fade in */
+img[data-lazyloaded] {
+    opacity: 0;
+}
+
+img.litespeed-loaded {
+    -webkit-transition: opacity .5s linear 0.2s;
+    -moz-transition: opacity .5s linear 0.2s;
+    transition: opacity .5s linear 0.2s;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {}
+
+a:focus {
+    outline: 0;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+input:focus {
+    border: 1px solid #04A4CC;
+    outline: 0;
+}
+
+p,
+ul,
+ol {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+blockquote {
+    margin: 25px 0;
+    padding: 25px 0 25px 5vw;
+    font-style: italic;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-weight: 700;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+/* wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    max-width: 2560px;
+    overflow: hidden;
+}
+
+.container {
+    max-width:1280px; 
+    align-self: center;
+    flex: 1 auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+/* header */
+.header {}
+
+.logo-img {
+    backface-visibility: hidden;
+    height: 180px;
+}
+
+/* nav */
+.nav {}
+
+/* sidebar */
+.sidebar {}
+
+/* footer */
+.footer {
+    background: #C992F0;
+    height: 100px;
+    padding: 20px;
+    opacity: 50%;
+}
+
+.footer-border {
+    border-top: 5px solid;
+    margin-top: 25px;
+}
+
+.pagination {
+    font-size: 1.6rem;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.black-cell {
+    background-color: black;
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    ACF GOOGLE MAP
+\*------------------------------------*/
+
+.acf-map {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    max-height: 600px;
+    border: #ccc solid 1px;
+    margin: 20px 0;
+  }
+
+   /* Fixes potential theme css conflict. */
+  .acf-map img {
+   max-width: inherit !important;
+  }
+
+  .slick-next:before, 
+  .slick-prev:before {
+
+    color: black;
+  }
+
+  .slick-prev {
+    left: 0px
+  }
+
+  .slick-next {
+    right: 0px;
+  }
+
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
+.gameForm {
+    margin: 0px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.headerColumns {
+    margin: 2.5px 0px 0px 0px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+
+.logoColumn {
+    padding: 5px;
+}
+
+.logoHeader {
+    height: 200px;
+    width: 200px;
+}
+
+.team-caricel {
+    padding: 0px 20px 0px 20px;
+    width: 1025px;
+}
+
+.team-caricel-home {
+    padding: 0px 20px 0px 20px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 5px solid;
+    border-right: 5px solid;
+}
+
+.random {
+    align-content: right;
+    padding: 5px;
+    width: 200px;
+}
+
+.columns-style-header {
+    padding: 0px 2.5px 0px 2.5px;
+    background-color: #C992F0;
+}
+
+.header-p {
+    text-align:right;
+    margin: 5px;
+}
+
+.header-dropdown {
+    font-size: 12px; 
+    height: 30px; 
+    width: 150px;
+    border: 2.5px solid grey;
+}
+
+.header-submit {
+    font-size: 16px; 
+    height: 30px; 
+    width: 75px;
+    border: 2.5px solid grey;
+    margin-left: 5px;
+}
+
+.color-line-top {
+    margin-top: -7.3px;
+    background-color: #C992F0;
+    height: 35px;
+    border-bottom: 5px solid;
+}
+
+.color-line-bottom {
+    margin-bottom: -5px;
+    background-color: #C992F0;
+    height: 35px;
+    border-top: 5px solid;
+}
+
+.div-line {
+    background-color: #C992F0;
+    height: 35px;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+}
+
+.header-h2 {
+    margin: 0px;
+}
+
+.header-slider1 {
+    border-left: 5px solid;
+    border-right: 5px solid;
+}
+
+.logo {
+    width: fit-content;
+}
+
+.statsHeader {
+    height: auto;
+    margin-top: 25px;
+}
+
+/*------------------------------------*\
+    STATS
+\*------------------------------------*/
+
+.statsTable {
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+.statsTable th, 
+.statsTable td {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+
+.statsTable-team {
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+.statsTable-team th, 
+.statsTable-team td {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*------------------------------------*\
+    FORMS STYLES
+\*------------------------------------*/
+
+.custom-combobox {
+    position: relative !important;
+    display: inline-block !important;
+}
+.custom-combobox-toggle {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin-left: -1px !important;
+    padding: 0 !important;  
+}
+.custom-combobox-input {
+    margin: 0px !important;
+    padding: 5px 10px !important;
+}
+
+.game-wrapper,
+.team-wrapper,
+.player-wrapper {
+    margin: 5px;
+}
+
+.ui-widget {
+    font-size: 15px;
+}
+
+.stats-styles {
+    font-size: 15px;
+    margin: 7.5px;
+}
+
+#newPlayer-wrapper {
+    display:none;
+}
+#newGame-wrapper {
+    display:none;
+}
+#newTeam-wrapper {
+    display:none;
+}
+#imageUpload {
+    display:none;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+@media only screen and (min-width:320px) {}
+
+@media only screen and (min-width:480px) {}
+
+@media only screen and (min-width:769px) {}
+
+@media only screen and (min-width:1024px) {}
+
+@media only screen and (min-width:1140px) {}
+
+@media only screen and (min-width:1280px) {}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+::selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #FFF;
+    border: 1px solid #F0F0F0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: #000 !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " ("attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    .nav,
+    .sidebar,
+    .home-slider,
+    #respond {
+        display: none;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game Name='FIFA 23'>
+    <teams>
+        <team Name='Barcalona'>
+            <players>
+                <player Name='R. Lewandowski'>
+                    <gseason1>1</gseason1>
+                    <gseason2>1</gseason2>
+                    <gseason3>1</gseason3>
+                    <gseason4>1</gseason4>
+                    <gseason5>1</gseason5>
+                    <gseason6>1</gseason6>
+                    <gseason7>1</gseason7>
+                    <gseason8>1</gseason8>
+                    <gseason9>1</gseason9>
+                    <gseason10>1</gseason10>
+                    <aseason1>1<aseason1>
+                    <aseason2>1<aseason2>
+                    <aseason3>1<aseason3>
+                    <aseason4>1<aseason4>
+                    <aseason5>1<aseason5>
+                    <aseason6>1<aseason6>
+                    <aseason7>1<aseason7>
+                    <aseason8>1<aseason8>
+                    <aseason9>1<aseason9>
+                    <aseason10>1<aseason10>
+                </player>
+                <player Name='Raphinha'>
+                    <gseason1>1</gseason1>
+                    <gseason2>1</gseason2>
+                    <gseason3>1</gseason3>
+                    <gseason4>1</gseason4>
+                    <gseason5>1</gseason5>
+                    <gseason6>1</gseason6>
+                    <gseason7>1</gseason7>
+                    <gseason8>1</gseason8>
+                    <gseason9>1</gseason9>
+                    <gseason10>1</gseason10>
+                    <aseason1>1<aseason1>
+                    <aseason2>1<aseason2>
+                    <aseason3>1<aseason3>
+                    <aseason4>1<aseason4>
+                    <aseason5>1<aseason5>
+                    <aseason6>1<aseason6>
+                    <aseason7>1<aseason7>
+                    <aseason8>1<aseason8>
+                    <aseason9>1<aseason9>
+                    <aseason10>1<aseason10>
+                </player>
+            </players>
+        </teams>
+    </teams>
+</game>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game Name="TEST">
+  <teams>  
+    <team Name="Barcalona">
+      <players>
+        <player Name="R. Lewandowski">
+          <Season_1 Goals="31" Assists="10"/>
+          <Season_2 Goals="27" Assists="5"/>
+          <Season_3 Goals="" Assists=""/>
+          <Season_4 Goals="" Assists=""/>
+          <Season_5 Goals="" Assists=""/>
+          <Season_6 Goals="" Assists=""/>
+          <Season_7 Goals="" Assists=""/>
+          <Season_8 Goals="" Assists=""/>
+          <Season_9 Goals="" Assists=""/>
+          <Season_10 Goals="" Assists=""/>
+        <player/>
+        <player Name="Raphinha"/>
+        Season1G="25" Season2G="17" Season3G="16" Season4G="26" Season5G="22" Season6G="" Season7G="" Season8G="" Season9G="" Season10G=""
+        Season1A="5" Season2A="6" Season3A="7" Season4A="6" Season5A="5" Season6A="" Season7A="" Season8A="" Season9A="" Season10A=""
+          <Season_1 Goals="25" Assists="5"/>
+          <Season_2 Goals="17" Assists="6"/>
+          <Season_3 Goals="16" Assists="7"/>
+          <Season_4 Goals="26" Assists="6"/>
+          <Season_5 Goals="22" Assists="5"/>
+          <Season_6 Goals="" Assists=""/>
+          <Season_7 Goals="" Assists=""/>
+          <Season_8 Goals="" Assists=""/>
+          <Season_9 Goals="" Assists=""/>
+          <Season_10 Goals="" Assists=""/>
+        <player/>
+        <player Name="A. Fati"/>
+          <Season_1 Goals="12" Assists="2"/>
+          <Season_2 Goals="14" Assists="6"/>
+          <Season_3 Goals="30" Assists="8"/>
+          <Season_4 Goals="27" Assists="14"/>
+          <Season_5 Goals="32" Assists="21"/>
+          <Season_6 Goals="37" Assists="15"/>
+          <Season_7 Goals="36" Assists="11"/>
+          <Season_8 Goals="29" Assists="15"/>
+          <Season_9 Goals="32" Assists="3"/>
+          <Season_10 Goals="26" Assists="3"/>
+        <player/>
+        <!-- <player Name="D. Vlahovic">
+          <season1></season1>
+          <season2></season2>
+          <season3>27</season3>
+          <season4>34</season4>
+          <season5>34</season5>
+          <season6>28</season6>
+          <season7>22</season7>
+          <season8>27</season8>
+          <season9>40</season9>
+          <season10>34</season10>
+          <seasonA1></seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3>4</seasonA3>
+          <seasonA4>3</seasonA4>
+          <seasonA5>1</seasonA5>
+          <seasonA6>4</seasonA6>
+          <seasonA7>9</seasonA7>
+          <seasonA8>2</seasonA8>
+          <seasonA9>1</seasonA9>
+          <seasonA10>2</seasonA10>
+        </player>
+        <player Name="F. de Jong">
+          <season1>10</season1>
+          <season2></season2>
+          <season3></season3>
+          <season4></season4>
+          <season5></season5>
+          <season6></season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>12</seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3></seasonA3>
+          <seasonA4></seasonA4>
+          <seasonA5></seasonA5>
+          <seasonA6></seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>S. Prieto</Name>
+          <season1></season1>
+          <season2></season2>
+          <season3></season3>
+          <season4></season4>
+          <season5></season5>
+          <season6>19</season6>
+          <season7>29</season7>
+          <season8>35</season8>
+          <season9>18</season9>
+          <season10>21</season10>
+          <seasonA1></seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3></seasonA3>
+          <seasonA4></seasonA4>
+          <seasonA5></seasonA5>
+          <seasonA6>7</seasonA6>
+          <seasonA7>12</seasonA7>
+          <seasonA8>10</seasonA8>
+          <seasonA9>10</seasonA9>
+          <seasonA10>14</seasonA10>
+        </player>
+        <player>
+          <Name>F. Kessie</Name>
+          <season1>10</season1>
+          <season2>7</season2>
+          <season3>20</season3>
+          <season4>20</season4>
+          <season5>4</season5>
+          <season6>6</season6>
+          <season7>6</season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>3</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>9</seasonA3>
+          <seasonA4>12</seasonA4>
+          <seasonA5>2</seasonA5>
+          <seasonA6>5</seasonA6>
+          <seasonA7>3</seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>Pedri</Name>
+          <season1>8</season1>
+          <season2>11</season2>
+          <season3>13</season3>
+          <season4>13</season4>
+          <season5>11</season5>
+          <season6>16</season6>
+          <season7>5</season7>
+          <season8>17</season8>
+          <season9>13</season9>
+          <season10>15</season10>
+          <seasonA1>9</seasonA1>
+          <seasonA2>15</seasonA2>
+          <seasonA3>17</seasonA3>
+          <seasonA4>18</seasonA4>
+          <seasonA5>18</seasonA5>
+          <seasonA6>15</seasonA6>
+          <seasonA7>11</seasonA7>
+          <seasonA8>12</seasonA8>
+          <seasonA9>23</seasonA9>
+          <seasonA10>12</seasonA10>
+        </player>
+        <player>
+          <Name>N. Gonzalez</Name>
+          <season1>8</season1>
+          <season2>1</season2>
+          <season3>1</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>1</season6>
+          <season7>1</season7>
+          <season8>0</season8>
+          <season9>2</season9>
+          <season10>0</season10>
+          <seasonA1>3</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>2</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>2</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>1</seasonA10>
+        </player>
+        <player>
+          <Name>J. Frimpong</Name>
+          <season1>6</season1>
+          <season2>1</season2>
+          <season3>1</season3>
+          <season4>0</season4>
+          <season5>1</season5>
+          <season6>5</season6>
+          <season7>2</season7>
+          <season8>4</season8>
+          <season9>6</season9>
+          <season10>4</season10>
+          <seasonA1>5</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>1</seasonA3>
+          <seasonA4>3</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>4</seasonA6>
+          <seasonA7>5</seasonA7>
+          <seasonA8>4</seasonA8>
+          <seasonA9>2</seasonA9>
+          <seasonA10>2</seasonA10>
+        </player>
+        <player>
+          <Name>Ilias</Name>
+          <season1>4</season1>
+          <season2>0</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>0</season6>
+          <season7>0</season7>
+          <season8>0</season8>
+          <season9>0</season9>
+          <season10>0</season10>
+          <seasonA1>1</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>0</seasonA10>
+        </player>
+        <player>
+          <Name>A. Davies</Name>
+          <season1>2</season1>
+          <season2>4</season2>
+          <season3>5</season3>
+          <season4>4</season4>
+          <season5>6</season5>
+          <season6>5</season6>
+          <season7>3</season7>
+          <season8>2</season8>
+          <season9>3</season9>
+          <season10>3</season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>11</seasonA3>
+          <seasonA4>5</seasonA4>
+          <seasonA5>3</seasonA5>
+          <seasonA6>8</seasonA6>
+          <seasonA7>4</seasonA7>
+          <seasonA8>7</seasonA8>
+          <seasonA9>8</seasonA9>
+          <seasonA10>7</seasonA10>
+        </player>
+        <player>
+          <Name>E. Garcia</Name>
+          <season1>1</season1>
+          <season2>1</season2>
+          <season3>1</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>2</season6>
+          <season7>1</season7>
+          <season8>0</season8>
+          <season9>2</season9>
+          <season10>0</season10>
+          <seasonA1>2</seasonA1>
+          <seasonA2>1</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>1</seasonA5>
+          <seasonA6>2</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>1</seasonA9>
+          <seasonA10>2</seasonA10>
+        </player>
+        <player>
+          <Name>J. Kounde</Name>
+          <season1>1</season1>
+          <season2>0</season2>
+          <season3>2</season3>
+          <season4>1</season4>
+          <season5>2</season5>
+          <season6>2</season6>
+          <season7>3</season7>
+          <season8>2</season8>
+          <season9>2</season9>
+          <season10>2</season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>1</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>1</seasonA6>
+          <seasonA7>1</seasonA7>
+          <seasonA8>1</seasonA8>
+          <seasonA9>1</seasonA9>
+          <seasonA10>1</seasonA10>
+        </player>
+        <player>
+          <Name>O. Dembele</Name>
+          <season1>1</season1>
+          <season2>10</season2>
+          <season3>0</season3>
+          <season4></season4>
+          <season5></season5>
+          <season6></season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>1</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4></seasonA4>
+          <seasonA5></seasonA5>
+          <seasonA6></seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>K. Adeyemi</Name>
+          <season1>1</season1>
+          <season2>9</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>1</season6>
+          <season7>0</season7>
+          <season8>0</season8>
+          <season9>1</season9>
+          <season10>0</season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>0</seasonA10>
+        </player>
+        <player>
+          <Name>A. Ezzalzouli</Name>
+          <season1>1</season1>
+          <season2>0</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>0</season6>
+          <season7>0</season7>
+          <season8>0</season8>
+          <season9>0</season9>
+          <season10>0</season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>0</seasonA10>
+        </player>
+        <player>
+          <Name>A. Collado</Name>
+          <season1>1</season1>
+          <season2>0</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6></season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6></seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>P. Gavi</Name>
+          <season1>0</season1>
+          <season2>3</season2>
+          <season3>2</season3>
+          <season4>1</season4>
+          <season5>6</season5>
+          <season6></season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>2</seasonA2>
+          <seasonA3>4</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>1</seasonA5>
+          <seasonA6></seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>D. Rice</Name>
+          <season1>0</season1>
+          <season2>2</season2>
+          <season3>1</season3>
+          <season4>3</season4>
+          <season5>2</season5>
+          <season6>1</season6>
+          <season7>0</season7>
+          <season8>0</season8>
+          <season9>1</season9>
+          <season10>1</season10>
+          <seasonA1>1</seasonA1>
+          <seasonA2>4</seasonA2>
+          <seasonA3>1</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>1</seasonA6>
+          <seasonA7>2</seasonA7>
+          <seasonA8>1</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>2</seasonA10>
+        </player>
+        <player>
+          <Name>F. Trincao</Name>
+          <season1>0</season1>
+          <season2>0</season2>
+          <season3>1</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>0</season6>
+          <season7>1</season7>
+          <season8>0</season8>
+          <season9>0</season9>
+          <season10>0</season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>0</seasonA10>
+        </player>
+        <player>
+          <Name>O. Kokcu</Name>
+          <season1></season1>
+          <season2></season2>
+          <season3></season3>
+          <season4>5</season4>
+          <season5>2</season5>
+          <season6>2</season6>
+          <season7>4</season7>
+          <season8>1</season8>
+          <season9>3</season9>
+          <season10>1</season10>
+          <seasonA1></seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3></seasonA3>
+          <seasonA4>10</seasonA4>
+          <seasonA5>11</seasonA5>
+          <seasonA6>5</seasonA6>
+          <seasonA7>8</seasonA7>
+          <seasonA8>6</seasonA8>
+          <seasonA9>8</seasonA9>
+          <seasonA10>3</seasonA10>
+        </player>
+        <player>
+          <Name>P. Carvajal</Name>
+          <season1>0</season1>
+          <season2>0</season2>
+          <season3>0</season3>
+          <season4>1</season4>
+          <season5>0</season5>
+          <season6>1</season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>0</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player>
+        <player>
+          <Name>A. Balde</Name>
+          <season1>0</season1>
+          <season2>1</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6>0</season6>
+          <season7>0</season7>
+          <season8>0</season8>
+          <season9>1</season9>
+          <season10>2</season10>
+          <seasonA1>2</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>1</seasonA9>
+          <seasonA10>6</seasonA10>
+        </player>
+        <player>
+          <Name>E. Santos</Name>
+          <season1></season1>
+          <season2></season2>
+          <season3>3</season3>
+          <season4>3</season4>
+          <season5>1</season5>
+          <season6>1</season6>
+          <season7>5</season7>
+          <season8>7</season8>
+          <season9>5</season9>
+          <season10>4</season10>
+          <seasonA1></seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>1</seasonA8>
+          <seasonA9>1</seasonA9>
+          <seasonA10>2</seasonA10>
+        </player>
+        <player>
+          <Name>C. Romero</Name>
+          <season1></season1>
+          <season2></season2>
+          <season3>1</season3>
+          <season4>2</season4>
+          <season5>0</season5>
+          <season6>0</season6>
+          <season7>1</season7>
+          <season8>1</season8>
+          <season9>3</season9>
+          <season10>2</season10>
+          <seasonA1></seasonA1>
+          <seasonA2></seasonA2>
+          <seasonA3>0</seasonA3>
+          <seasonA4>0</seasonA4>
+          <seasonA5>0</seasonA5>
+          <seasonA6>0</seasonA6>
+          <seasonA7>0</seasonA7>
+          <seasonA8>0</seasonA8>
+          <seasonA9>0</seasonA9>
+          <seasonA10>0</seasonA10>
+        </player>
+        <player>
+          <Name>M. ter Stegen</Name>
+          <season1>0</season1>
+          <season2>0</season2>
+          <season3>0</season3>
+          <season4>0</season4>
+          <season5>0</season5>
+          <season6></season6>
+          <season7></season7>
+          <season8></season8>
+          <season9></season9>
+          <season10></season10>
+          <seasonA1>1</seasonA1>
+          <seasonA2>0</seasonA2>
+          <seasonA3>3</seasonA3>
+          <seasonA4>1</seasonA4>
+          <seasonA5>2</seasonA5>
+          <seasonA6></seasonA6>
+          <seasonA7></seasonA7>
+          <seasonA8></seasonA8>
+          <seasonA9></seasonA9>
+          <seasonA10></seasonA10>
+        </player> -->
+      </players>
+    </team>
+  </teams>
+</game>  
