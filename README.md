@@ -1,0 +1,4 @@
+This is my personal website that I created while I was interning at Sperling Interactive. I used some of the things that they taught me to come up with the idea for this webiste. They allowed me to used there WordPress theme to get my website started on my own local host. I then started coding asking questions when even I did not undertsand how somthing worked or how to implement an I that I had. The final product is a website that hold data about soccer season that I simulated on FIFA 23. You cna even add data to the website through a form that is accessable from the front end of the website.
+
+DISCLAIMER:
+I did not write all of the code that is avalible in this project. I only really add to the CSS file and add some PHP files that control the pages that I added. These are found in the wp-content/themes/sperling-starter-theme-master part of the project.
